@@ -4,8 +4,8 @@ Yo guys I got a bare bones setup going.
 
 It requires having node installed on your raspi, theres a bunch of ways to do that.
 
-Heres a tutorial on that: [
-](https://codingtrain.github.io/website-archive/Tutorials/12-websockets/12.1-introduction-to-node.html)
+Heres a tutorial on that: 
+https://codingtrain.github.io/website-archive/Tutorials/12-websockets/12.1-introduction-to-node.html
 
 
 You run the server.js file by being in the same directory as it and typing      sudo node server.js     
