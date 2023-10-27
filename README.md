@@ -10,9 +10,7 @@ https://codingtrain.github.io/website-archive/Tutorials/12-websockets/12.1-intro
 
 You run the server.js file by being in the same directory as it and typing      sudo node server.js     
 
-If you clone and run this it should
-
-work, you got to specify length though in server.js under 'const channel' its currently at 7.
+If you clone and run this it should work, you got to specify length though in server.js under 'const channel' its currently at 7.
 
 The communication is between the sketch.js file in public that the client sees on the browser by going to ip and port.
 
@@ -23,3 +21,4 @@ then you would log into the ip and port
 from there you can control leds from interface
 
 Whats missing is making this nice by cleaning it up and building on it.
+If you guys can help with that that would be amazing!
