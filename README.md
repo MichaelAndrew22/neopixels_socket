@@ -2,6 +2,10 @@ REAL TIME CONTROL OF NEOPIXELS ON RASPI
 
 Yo guys I got a bare bones setup going. 
 
+It requires having node installed on your raspi, theres a bunch of ways to do that.
+
+You run the server.js file by typing      sudo node server.js     
+
 If you clone and run this it should work, you got to specify length though in server.js under 'const channel' its currently at 7.
 
 The communication is between the sketch.js file in public that the client sees on the browser by going to ip and port.
