@@ -1,0 +1,20 @@
+{
+  "name": "neopixels",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@simontaga/rpi-ws281x-native": "^1.0.5",
+    "colornames": "^1.1.1",
+    "express": "^4.18.2",
+    "raspi-io": "^11.0.0",
+    "rpi-ws281x-native": "^1.0.4",
+    "socket-io": "^1.0.0",
+    "socket.io": "^4.7.2"
+  }
+}
