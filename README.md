@@ -12,7 +12,7 @@ To make this work this file needs to be downloaded onto the pi and run with node
 
 You run the server.js file by being in the same directory as it and typing      sudo node server.js     
 
-The sketch.js is live rendered in the browser via a html canvas.
+The sketch.js is live rendered in the browser via P5JS
 
 The sketch file sends data to the server.js file over a socket connection.
 
