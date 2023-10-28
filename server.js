@@ -18,22 +18,22 @@ var io = socket(server)
 io.sockets.on('connection',newConnection);
 
 function newConnection(socket){
-	console.log("socket established, great job ( . )Y ( .)");
+	console.log("socket established :)" );
 	socket.on('values',leds_change);
 
 	function leds_change(data){
 
-var val = rgbToHex(data.rgb_val,data.rgb_val,data.rgb_val);
-console.log(val);
+		var val = rgbToHex(data.r,data.g,data.b);
 
-	for (let i = 0; i < channel.count; i++) {
-  
-  colorArray[i] = val;
-  
- //make a data to hex converter
-}
+		console.log(val);
 
-ws281x.render();
+		for (let i = 0; i < channel.count; i++) {
+
+			colorArray[i] = val;
+		}
+
+
+		ws281x.render();
 
 	console.log(data);
 
