@@ -1,4 +1,4 @@
-PI SOCKET LEDS
+PI P5 NODE SOCKET NEOPIXELS 
 
 
 This setup just requires having node installed on your pi
